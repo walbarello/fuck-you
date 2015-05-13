@@ -17,7 +17,7 @@ main(process.argv, process.pid)
 // :: [String], Number -> () *Eff*
 function main(args, pid) {
   if (args.length <3) {
-    show('Usage: fuck [you] PROCESS_NAME')
+    show('Usage: fuck [the king] PROCESS_NAME')
     process.exit(1) }
 
   var processName = last(args).get()
